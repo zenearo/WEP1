@@ -1,36 +1,26 @@
 body{
-    margin:0;
-  }
-a {
-  color: black;
-}
-h1{
-  font-size: 45px;
-  text-align: center;
   margin:0;
-  padding:20px;
+}
+a {
+  text-decoration: none;
+}
+h1{  
+  text-align: center;
+  text-decoration: none;
 }
 h2,p{
   text-align: center;
 }
 li{
   display: flex;
+  padding: 30px;
+  margin: 0;
 }
 ul{
-  background-color: gray;
-  border: none;
-  color: white;
-  padding: 8px 12px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+  /* width: 100%; */
+  display: flex;
   font-size: 16px;
-}
-#grid ol{
-  padding-left: 33px;
-}
-#grid #article{
-  padding-left: 25px;
+  justify-content: center;
 }
 @media(max-width:800px){
   #grid{
